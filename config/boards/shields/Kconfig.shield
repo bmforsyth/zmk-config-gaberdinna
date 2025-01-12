@@ -1,5 +1,5 @@
-config SHIELD_POLLEX_LEFT
-    def_bool $(shields_list_contains,pollex_left)
+config SHIELD_GABERDINNA_LEFT
+    def_bool $(shields_list_contains,gaberdinna_left)
 
-config SHIELD_POLLEX_RIGHT
-    def_bool $(shields_list_contains,pollex_right)
+config SHIELD_GABERDINNA_RIGHT
+    def_bool $(shields_list_contains,gaberdinna_right)
