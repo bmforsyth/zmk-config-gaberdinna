@@ -1,0 +1,11 @@
+file_format: '1'
+id: gaberdinna
+name: gaberdinna
+type: shield
+url: https://github.com/bmforsyth/zmk-config-gaberdinna
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - gaberdinna_left
+  - gaberdinna_right

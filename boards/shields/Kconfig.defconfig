@@ -1,0 +1,16 @@
+if SHIELD_GABERDINNA_LEFT
+
+config ZMK_KEYBOARD_NAME
+	default "Gaberdinna"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+	default y
+
+endif
+
+if SHIELD_GABERDINNA_LEFT || SHIELD_GABERDINNA_RIGHT
+
+config ZMK_SPLIT
+	default y
+
+endif
